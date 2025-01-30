@@ -1,0 +1,8 @@
+module ru.nefedova.task3_nefedovav2001 {
+    requires javafx.controls;
+    requires javafx.fxml;
+
+
+    opens ru.nefedova.task3_nefedovav2001 to javafx.fxml;
+    exports ru.nefedova.task3_nefedovav2001;
+}
